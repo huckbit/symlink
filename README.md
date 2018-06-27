@@ -16,8 +16,8 @@ and follow the instruction.
 It's possible to launch the script also with:
 ```shell
 ./symlink.py
+# make sure you have the permission to execute the file.
 ```
 
-**Note:** make sure you have the permission to execute the file.
 
 ![symlink](https://gitlab.com/huckbit/blog-images/raw/master/symlink.gif)
