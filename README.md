@@ -1,7 +1,7 @@
 # SYMLINK
 Symlink script for python2x: Create and remove symlink quickly in the current directory.
 
-Use this script to link the document root for your apache virtual host quickly. You need just to have the files `symlink.py` and `settings.json` in the directory where you want to create the symlink. The default dir name is `public_html` feel free to modify this setting updating the json file as you need.
+Use this script to link the document root for your apache virtual host quickly. You need to have just the files `symlink.py` and `settings.json` in the same directory where you want to create the symlink. The default dir name in symlink is `public_html` feel free to modify this setting updating the json file as you need.
 
 ### How to use it
 
