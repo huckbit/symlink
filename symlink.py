@@ -11,14 +11,16 @@ __email__ = "huckbit@huckbit.com"
 __status__ = "Production"
 
 import os
-import json
 
-with open(os.getcwd() + '/settings.json') as json_data_file:
-    settings = json.load(json_data_file)
+# Settings: change this variable name if needs to be different from public_html
+# ------------------------------------------------------------------------------
+folderName = 'public_html'
+
+
 
 # global variables
 currentPath = os.getcwd()
-dest = currentPath + "/" + settings["dir_name"]
+dest = currentPath + "/" + folderName
 
 
 # Print header and current status
@@ -27,7 +29,7 @@ def header():
 ====================================
 LINK/UNLINK DOCROOT for Python 2.x
 ====================================
-[1] - create link for a folder
+[1] - create link for the folder
 [2] - unlink folder
 [l] - list current folders
 [q] - quit
